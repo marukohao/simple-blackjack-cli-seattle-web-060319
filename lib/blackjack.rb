@@ -65,7 +65,7 @@ def runner
     isplay_card_total(sum)
     sum = hit?(sum)
   end
-  end_game 
+  end_game(sum) 
   
 end
     

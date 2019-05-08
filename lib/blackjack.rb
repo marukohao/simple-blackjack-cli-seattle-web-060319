@@ -60,12 +60,9 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  prompt_user
-  answer = get_user_input
-  if answer == "h"
-    hit?
-  elsif answer == "s"
+  sum = initial_round
+  until sum <= 21
+  end
     
   
 end

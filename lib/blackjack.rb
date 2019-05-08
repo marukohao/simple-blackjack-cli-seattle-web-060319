@@ -59,5 +59,14 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  prompt_user
+  answer = get_user_input
+  if answer == "h"
+    hit?
+  elsif answer == "s"
+    
+  
 end
     
